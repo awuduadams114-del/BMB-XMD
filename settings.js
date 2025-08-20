@@ -8,11 +8,11 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
 
-module.exports = {
+module.exports = {.
     session: process.env.SESSION_ID || '',
-    PREFIXE: process.env.PREFIX || "+",
+    PREFIXE: process.env.PREFIX |.| .,
     OWNER_NAME: process.env.OWNER_NAME || "B.M.B-TECH",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "255767862457",              
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "233556136190",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'B.M.B-TECH',
